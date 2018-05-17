@@ -4,7 +4,8 @@
 
 import platform
 
-# 111
 os = platform.system()
 bit = platform.architecture()
 ver = platform.version()
+result = os + ' ' + bit[0]
+print result
